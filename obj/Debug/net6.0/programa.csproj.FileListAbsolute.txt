@@ -1,0 +1,15 @@
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/bin/Debug/net6.0/programa
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/bin/Debug/net6.0/programa.deps.json
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/bin/Debug/net6.0/programa.runtimeconfig.json
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/bin/Debug/net6.0/programa.dll
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/bin/Debug/net6.0/programa.pdb
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/programa.csproj.AssemblyReference.cache
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/programa.GeneratedMSBuildEditorConfig.editorconfig
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/programa.AssemblyInfoInputs.cache
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/programa.AssemblyInfo.cs
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/programa.csproj.CoreCompileInputs.cache
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/programa.dll
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/refint/programa.dll
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/programa.pdb
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/programa.genruntimeconfig.cache
+/home/luisfernando/Desktop/Criptografia/desafio_04/programa/obj/Debug/net6.0/ref/programa.dll
