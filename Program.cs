@@ -4,10 +4,12 @@ using System.Text;
 string path = "/home/luisfernando/Desktop/Criptografia/desafio_04/documentos/";
 System.Console.WriteLine(GetWrongHmac(path));
 
-static string GetWrongHmac(string path) {
+static string GetWrongHmac(string path)
+{
     string[] nameFiles = ReadNameFiles(path);
 
-    for(int i = 0; i < nameFiles.Length; i++)  {
+    for (int i = 0; i < nameFiles.Length; i++)
+    {
         string pathWithFile = path + nameFiles[i];
         DateTime date = File.GetCreationTime(pathWithFile);
         int dateArchive = int.Parse(date.ToString("dd"));
@@ -15,11 +17,11 @@ static string GetWrongHmac(string path) {
         using (StreamReader sr = File.OpenText(pathWithFile + ".hmac"))
         {
             string valueHmac = sr.ReadLine();
-            if (valueHmac != hash) {
+            if (valueHmac != hash)
+            {
                 return nameFiles[i];
             }
         }
-
     }
     return "Deu ruim";
 }
@@ -40,8 +42,7 @@ static string GetHashByDay(int dateArchive)
 {
     List<string> hash = GetHash();
     string[] hashDay = hash.ToArray();
-
-    return hashDay[2 - 1];
+    return hashDay[dateArchive - 1];
 }
 
 //Lista com os hash diarios
@@ -55,7 +56,7 @@ static List<string> GetHash()
         {
             while (!sr.EndOfStream)
             {
-                
+
                 string hashDay = sr.ReadLine();
                 hash.Add(hashDay);
             }
